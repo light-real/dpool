@@ -25,7 +25,7 @@ void task(int taskId)
 }
 
 
-void monitor(const ThreadPool &pool, int seconds)
+void monitor(const ThreadPool &pool, int seconds) //监听当前的线程数
 {
     for (int i = 1; i < seconds * 10; ++i)
     {
